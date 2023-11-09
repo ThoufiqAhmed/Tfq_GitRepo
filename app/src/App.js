@@ -91,7 +91,7 @@ function App() {
       <main>
         <div className="Billing-form">
           <h2>Submit Bill</h2>
-          <label htmlFor="customerId">Customer ID:</label>
+          <label htmlFor="customer-Id">Customer ID:</label>
           <input
             type="number"
             id="customerId"
