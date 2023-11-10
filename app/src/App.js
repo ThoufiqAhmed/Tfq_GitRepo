@@ -27,7 +27,7 @@ function App() {
         const web3 = new Web3(window.web3.currentProvider);
         setWeb3(web3);
       } else {
-        console.error('No web3 instance detected');
+        console.error('No web3  instance detected');
       }
     };
     initWeb3();
@@ -98,7 +98,7 @@ function App() {
             value={customerId}
             onChange={(e) => setCustomerId(parseInt(e.target.value))}
           />
-          <label htmlFor="billDate">Bill Month:</label>
+          <label htmlFor="billDate">Bill Month (mm):</label>
           <input
             type="number"
             id="billDate"
