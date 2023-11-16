@@ -124,7 +124,7 @@ function App() {
             value={customerId}
             onChange={(e) => setCustomerId(parseInt(e.target.value))}
           />
-          <label htmlFor="billDate">Bill Month:</label>
+          <label htmlFor="billDate">Bill Month (mm):</label>
           <input
             type="number"
             id="billDate"
